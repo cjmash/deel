@@ -6,10 +6,8 @@ import CompliancePage from '../pageobjects/compliance.page';
 import GeneralInformationPage from '../pageobjects/generalInformation.page';
 import PaymentDetailsPage from '../pageobjects/paymentDetails.page';
 import DefineDatesPage from '../pageobjects/paymentDetails.page';
-
-// import fixedContractPage from '../pageobjects/fixedContract.page';
-
 import data from '../fixtures/data';
+
 describe('My Contratct test ', () => {
     beforeEach(() => {
       DashboardPage.open();
